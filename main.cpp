@@ -682,6 +682,11 @@ void stamina()
 
 int main()
 {
+	setlocale(LC_ALL, "rus");
+
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+
 	stamina();
 	return 0;
 }
